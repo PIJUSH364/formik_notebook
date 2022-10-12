@@ -1,12 +1,18 @@
 import React from "react";
 import BodyContent from "../../BodyContent";
-import Nav from "../../Nav";
+import { Link } from "react-router-dom";
 import YoutubeForm from "./YoutubeForm";
 
 function Formik() {
   return (
     <div className="formik--container">
-      <Nav />
+      <div className="navigaton--link">
+        {" "}
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+      </div>
+
       <BodyContent content="learn Formik" />
       <YoutubeForm />
     </div>

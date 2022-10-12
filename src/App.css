@@ -22,10 +22,15 @@ li {
   text-align: center;
   border-radius: 6px;
   transition: all 1s ease-in-out;
+  max-width: 8rem;
 }
 li:hover {
   color: #fff;
   background: tomato;
+}
+.navigaton--link {
+  display: flex;
+  justify-content: center;
 }
 a {
   text-decoration: none;
@@ -86,4 +91,8 @@ label {
   font-size: 13px;
   top: -60px;
   margin-bottom: 10px;
+}
+.form--control {
+  display: flex;
+  flex-direction: column;
 }
