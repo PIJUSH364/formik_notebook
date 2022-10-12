@@ -54,7 +54,7 @@ input {
   border: 2px solid gainsboro;
   border-radius: 3px;
   padding: 10px 4px;
-  margin-bottom: 1em;
+  margin-bottom: 0.51em;
   background: #55525254;
   outline: none;
   font-size: 16px;
@@ -80,4 +80,10 @@ label {
 .submit--form--button:hover {
   background: tomato;
   transition: all 1s ease-in-out;
+}
+.error--formik {
+  color: red;
+  font-size: 13px;
+  top: -60px;
+  margin-bottom: 10px;
 }
