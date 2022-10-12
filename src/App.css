@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #171717;
+  color: white;
+}
+.App {
+  padding: 1rem 4rem;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style-type: none;
+  padding: 8px 20px;
+  background: #fff;
+  color: #171717;
+  font-weight: 600;
+  font-size: 23px;
+  text-align: center;
+  border-radius: 6px;
+  transition: all 1s ease-in-out;
+}
+li:hover {
+  color: #fff;
+  background: tomato;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  margin-top: 3rem;
+}
+.content--positon {
+  text-align: center;
+}
+.formik--container {
+  margin: 2em 0;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+input {
+  width: 50vw;
+  border: 2px solid gainsboro;
+  border-radius: 3px;
+  padding: 10px 4px;
+  margin-bottom: 1em;
+  background: #55525254;
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+input:focus {
+  border: 2px solid salmon;
+}
+label {
+  margin-bottom: 0.41em;
+  font-size: 20px;
+  font-weight: 600;
+}
+.submit--form--button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid rgb(161, 152, 151);
+  border-radius: 5px;
+  background: #55525254;
+  cursor: pointer;
+}
+.submit--form--button:hover {
+  background: tomato;
+  transition: all 1s ease-in-out;
+}
